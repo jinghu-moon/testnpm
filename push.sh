@@ -28,7 +28,7 @@ else
 fi
 git add .
 git commit -m "$commitMsg"
-git push
+git push origin main
 
 echo -e "\n\n\033[1;33m4 本次更新内容\033[0m"
 # echo "═══════════════════════════════════════════════════"
